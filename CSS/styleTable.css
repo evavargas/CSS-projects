@@ -1,0 +1,12 @@
+table { border-collapse: collapse; }
+table, th, td { padding: 15px; border-bottom: 1px solid black; }
+
+table.eg1 tr:nth-child(even) { background-color: #ccff99; }
+
+table.eg2 tr:nth-child(odd) { background-color: #ccff99; }
+
+table.eg3 tr:nth-child(3n) { background-color: #ccff99; }
+
+table.eg1 tr:hover { background-color: #99d6ff; }
+table.eg2 tr:hover { background-color: rgb(209, 86, 86); }
+table.eg3 tr:hover{background-color: blueviolet}

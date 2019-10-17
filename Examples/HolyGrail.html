@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Holy Grail</title>
+    <style>
+      body {
+        margin: 0px;
+      }
+      .fc > * {
+        margin: 10px;
+        padding: 20px;
+        background-color: rgb(245, 189, 242);
+        border-radius: 10px;
+        flex: 1;
+        min-width: 200px;
+      }
+      .fc {
+        display: flex;
+        flex-flow: row wrap;
+        min-height: calc(100vh - 200px);
+      }
+      header,
+      footer {
+        background-color: antiquewhite;
+        box-sizing: border-box;
+        width: 100vw;
+        height: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>the header</header>
+    <div class="fc">
+      <aside>first column</aside>
+      <main>the main content should be here</main>
+      <section><h6>this is the third column</h6></section>
+    </div>
+    <footer>the footer</footer>
+  </body>
+</html>

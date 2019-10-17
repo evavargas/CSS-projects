@@ -1,0 +1,56 @@
+.table1 {
+  margin: 20px 0;
+  padding: 10px;
+  border: 1px solid #c8c8c8;
+  font-size: 14px;
+  border-collapse: collapse;
+  font-family: arial, helvetica, sans-serif;
+}
+.table2 {
+  margin: 20px 0;
+  padding: 14px;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  border: 1px solid #030303;
+  font-size: 14px;
+  border-collapse: collapse;
+  font-family: arial, helvetica, sans-serif;
+  background-color: rgb(221, 216, 216);
+}
+.table2 th{
+  background-color: grey;
+  margin: 0rem;
+  padding: 14px;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  border: 1px solid #050505;
+  border-collapse: collapse;
+}
+.table3{
+  border:1px solid white;
+  border-collapse: collapse;
+  margin:0px;
+  padding:2rem;
+  padding-left: 9rem;
+  padding-right: 9rem;
+}
+.table3 th{
+  background-color: rgba(100, 142, 204, 0.918)
+}
+.table3 tbody tr:nth-child(odd) {
+  background-color: rgb(211, 215, 241);
+}
+.table3 tbody tr:nth-child(even) {
+  background-color: rgba(154, 194, 207, 0.438);
+}
+.table4{
+  border:1px solid rgb(209, 17, 17);
+  border-collapse: collapse;
+  margin:0px;
+  padding:2rem;
+  padding-left: 9rem;
+  padding-right: 9rem;
+}
+.table4 tbody tr:hover{
+  background-color: yellow;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Flexbox variable</title>
+    <style>
+      body {
+        margin: 0px;
+      }
+      .fc > *,
+      .narr {
+        margin: 10px;
+        padding: 20px;
+        background-color: rgb(176, 234, 245);
+        border-radius: 10px;
+        flex:1 0;
+      }
+      .fc>*{
+        max-width: calc(100vw - 360px);
+        max-height: 100vh;
+        height: 150px;
+        min-width: 400px;
+
+      }
+      .fc{
+        height: 100%;
+        box-sizing:content-box;
+        min-height: 100vh;
+        min-width: 215px;
+      }
+      .narr {
+        width: 100px;
+        height: 100vh;
+      }
+      .all{
+        display: flex;
+        flex-flow: row wrap;
+        min-width: 800px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="all">
+      <header class="narr">Swanns Way - Overture</header>
+      <div class="fc">
+        <aside>
+          For a long time I used to go to bed early. Sometimes, when I had put
+          out my candle, my eyes would close so quickly that I had not even time
+          to say &quot;I'm going to sleep.&quot;
+        </aside>
+        <main>
+          And half an hour later the thought that it was time to go to sleep
+          would awaken me; I would try to put away the book which, I imagined,
+          was still in my hands, and to blow out the light; I had been thinking
+          all the time, while I was asleep, of what I had just been reading, but
+          my thoughts had run into a channel of their own, until I myself seemed
+          actually to have become the subject of my book: a church, a quartet,
+          the rivalry between François I and Charles V.
+        </main>
+        <section>
+          <h6>-</h6>
+          <p>
+            This impression would persist for some moments after I was awake; it
+            did not disturb my mind, but it lay like scales upon my eyes and
+            prevented them from registering the fact that the candle was no
+            longer burning.
+          </p>
+        </section>
+      </div>
+      <footer class="narr">by Marcel Proust</footer>
+    </div>
+  </body>
+</html>

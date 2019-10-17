@@ -1,0 +1,12 @@
+p {
+    font-size: 8px; /* client insists small text makes them more 'professional'. */
+    /* I hope his idea of 'professional' includes paying on time. */
+  
+    line-height: 24px; /* see above */
+  
+    /* none of the stuff below is working. I don't know why.
+  
+    margin-top: 5%;
+    margin-bottom:6%;
+    */
+ }
